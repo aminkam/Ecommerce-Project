@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,657&display=swap");
+header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 3.5em;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: hsl(0, 0%, 0%);
+  z-index: 15;
+  border-bottom: 0.5px hsl(0, 0%, 0%) solid;
+}
+.apple-icon {
+  font-size: 50px;
+}
+h3 {
+  font-family: "Work Sans", sans-serif;
+}
+.search {
+  padding: 5px 13px;
+  border-radius: 2px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  margin-top: 9px;
+  border: 1px solid #fff;
+}
+
+.search-box > input[type="search"] {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+  background-color: white;
+  border: none;
+  color: rgba(0, 0, 0, 0.637);
+  /* padding: 1vmax 2vmax; */
+  /* width: 50%; */
+  /* border-radius: 0%; */
+  outline: none;
+  font: 300 1.1vmax cursive;
+  box-sizing: border-box;
+}
+.header-left {
+  display: flex;
+}
+.header-right {
+  display: flex;
+}
+.login-input {
+  border-radius: 5px;
+  width: 80px;
+  padding-left: 13px;
+  border: 1px solid rgb(5, 5, 5);
+  font-size: 15px;
+  margin-top: 5px;
+  height: 25px;
+  /* font-family: "poppins", sans-serif; */
+}
+.login-input:hover {
+  background-color: rgb(217, 215, 215);
+  cursor: pointer;
+  color: black;
+}

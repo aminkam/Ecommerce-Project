@@ -1,0 +1,80 @@
+.landing-page {
+  /* max-width: none; */
+  padding-top: 5em;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100vh;
+
+  margin: 0 -8px 0px -20px;
+}
+
+.landing-container {
+  margin-bottom: 15em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.landing-heading {
+  font-size: clamp(30px, 5vw, 50px);
+  margin-bottom: 20px;
+  opacity: 0;
+  animation: macbook 1s 1.5s ease-out forwards;
+  padding-top: 155px;
+}
+
+.landing-paragraph {
+  /* margin-bottom: 20px; */
+  font-size: clamp(19px, 5vw, 30px);
+  opacity: 0;
+  animation: macbook 1s 2s ease-out forwards;
+}
+
+.macbook-img {
+  padding-top: 90px;
+  width: 50em;
+  max-width: 1000px;
+  animation: Rise 1.7s ease-out;
+}
+.product-img {
+  height: 200px;
+}
+@keyframes Rise {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}
+
+@keyframes macbook {
+  0% {
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1130px) {
+  .macbook-img {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 560px) {
+  .landing-content {
+    padding: 2em 1em;
+  }
+
+  .landing-heading {
+    text-align: center;
+  }
+  .landing-paragraph {
+    width: 100%;
+  }
+}

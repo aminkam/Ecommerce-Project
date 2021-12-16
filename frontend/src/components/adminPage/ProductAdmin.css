@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,657&display=swap");
+.homeHeading3 {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 3.5vmax;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+  width: 20vmax;
+  padding: 1vmax;
+  margin: 5vmax auto;
+}
+.productCard3 {
+  display: flex;
+  width: 14vmax;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
+.productCard3:hover {
+  transform: translateY(-1vmax);
+}
+.cart-btn3 {
+  height: 35px;
+  font-size: 15px;
+}
+.productCard3 > img {
+  width: 100%;
+}
+.productCard3 > div {
+  margin: 0.5vmax;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.productCard3 > p {
+  font-family: "Roboto";
+  font-size: 1.2vmax;
+  margin: 1vmax 0.5vmax;
+}
+.container3 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200vh;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product-img3 {
+  height: 200px;
+}
+#admin-btn {
+  display: flex;
+}
+#edit-btn {
+  margin-right: 20px;
+  margin-top: -20px;
+}
+.delete-btn {
+  margin-left: 20px;
+  width: 80px;
+}
+
+.flex {
+  display: flex;
+}
